@@ -17,3 +17,12 @@ A simple Streamlit app showing movie data from [The Movie Database (TMDB)](https
    ```
    $ streamlit run streamlit_app.py
    ```
+
+### Registro de Solicitudes
+
+También se incluye un pequeño formulario en español para registrar solicitudes.
+Para ejecutarlo, usa:
+
+```bash
+$ streamlit run registro_solicitudes.py
+```
