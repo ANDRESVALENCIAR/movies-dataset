@@ -17,3 +17,13 @@ A simple Streamlit app showing movie data from [The Movie Database (TMDB)](https
    ```
    $ streamlit run streamlit_app.py
    ```
+
+### Extract RUT numbers
+
+Use the `rut_extractor.py` script to scan a folder of text files and collect RUT numbers:
+
+```bash
+python rut_extractor.py --input-dir ./rut_files --output-file worldoffice.txt
+```
+
+Once the file has been generated, upload `worldoffice.txt` to World Office.
